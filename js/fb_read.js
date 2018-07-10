@@ -1,4 +1,5 @@
 $(function() {
+	"use strict";
 
 	FB.init({
 	    appId: "134461313428624",

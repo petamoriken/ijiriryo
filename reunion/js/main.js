@@ -1,12 +1,12 @@
 $(function() {
 	"use strict";
-	
+
 	var mobile = (/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera);
-	
+
 	// scroll parallax
-	if(!mobile){
+	if (!mobile) {
 		$(".text").css("opacity", 0);
-		$(window).on("scroll", function(){
+		$(window).on("scroll", function() {
 			$("section").each(function() {
 				var dy = $(this).offset().top - $(window).scrollTop();
 				var w = 200;
@@ -22,6 +22,4 @@ $(function() {
 			});
 		});
 	}
-	
-	
 });

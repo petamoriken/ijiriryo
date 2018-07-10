@@ -1,52 +1,50 @@
 @charset "utf-8";
 
 * {
-	font-family:	"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",
-						"メイリオ","Meiryo",sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
 }
 
-html,body {
-	padding:	0;
-	margin:		0;
-	width: 100%;
-	height: 100%;
-	-webkit-text-size-adjust: 100%;
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 header {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	background: url("../img/header_@2X.jpg") #111 no-repeat center center;
-	-webkit-background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url("../img/header_@2X.jpg") #111 no-repeat center center;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
 #intro {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background: url("../img/texture/ricepaper2.png") #444;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url("../img/texture/ricepaper2.png") #444;
 }
 
 #application {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	background: url("../img/texture/sandpaper.png") #888;
-
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: url("../img/texture/sandpaper.png") #888;
 }
 
 .text {
-	height: calc(100%-100px);
-	width: 80%;
-	font-size: 50px;
-	padding-top: 50px;
-	margin: 0 auto 50px;
+    height: calc(100%-100px);
+    width: 80%;
+    font-size: 50px;
+    padding-top: 50px;
+    margin: 0 auto 50px;
 }
 
-.text>h2 {
-	font-weight: normal;
+.text > h2 {
+    font-weight: normal;
 }

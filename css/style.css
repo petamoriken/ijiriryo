@@ -1,358 +1,305 @@
 @charset "utf-8";
 
 * {
-	font-family:	"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",
-						"メイリオ","Meiryo",sans-serif;
-	font-size:		13px;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+    font-size: 13px;
 }
 
-html,body{
-	padding:	0;
-	margin:		0;
-	width: 100%;
-	height: 100%;
-	-webkit-text-size-adjust: 100%;
-	z-index: -1;
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+    z-index: -1;
 }
 
 table {
-	border:	0;
-	border-collapse:	collapse;
-	padding:	0;
+    border: 0;
+    border-collapse: collapse;
+    padding: 0;
 }
 
-td{
-	vertical-align:	top;
+td {
+    vertical-align: top;
 }
 
 sup {
-	vertical-align: super;
-	font-size: smaller;
+    vertical-align: super;
+    font-size: smaller;
 }
 
 div#wrapper {
-	width:	700px;
-	height:	100%;
-	margin:	0 auto;
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 header {
-	width:	700px;
-	height:	116px;
-	position:	absolute;
-	-webkit-transform : translateZ(0);
-	transform : translateZ(0);
+    width: 700px;
+    height: 116px;
+    position: absolute;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
+/* カバー画像 */
 
-
-
-
-
-
-
-
-
-
-/*カバー画像*/
-
-div#main>img {
-	width:	100%;
-	/*height:	203px;*/
-	margin:	136px 0 6px;
-	vertical-align:	text-bottom;
+div#main > img {
+    width: 100%;
+    margin: 136px 0 6px;
+    vertical-align: text-bottom;
 }
 
-
-
-
-
-
-
-
-
-
-/*ナビゲーションバー*/
+/* ナビゲーションバー */
 
 nav {
-	width:	700px;
-	height:	30px;
-	position:	relative;
-	-webkit-transform : translateZ(0);
-	transform : translateZ(0);
-	z-index:	100;
-	text-align:	center;
-	line-height:	30px;
-	vertical-align:	middle;
-	layout-grid-line:	30px;
+    width: 700px;
+    height: 30px;
+    position: relative;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 100;
+    text-align: center;
+    line-height: 30px;
+    vertical-align: middle;
+    layout-grid-line: 30px;
 }
 
 nav table{
-	height:	30px;
-	margin:	12px 0 0;
-	padding:	0;
-	border:	0;
-	border-collapse:	collapse;
-	line-height:	0;
+    height: 30px;
+    margin: 12px 0 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    line-height: 0;
 }
 
 nav td#nav_first {
-	padding:	0;
+    padding: 0;
 }
 
 nav td {
-	padding:	0 0 0 24px;
+    padding: 0 0 0 24px;
 }
 
 nav a:not(#selected) {
-	opacity:	0.4;
-	transition: all 0.1s ease;
-	-webkit-transition: all 0.1s ease;
-	-moz-transition: all 0.1s ease;
-	-o-transition: all 0.1s ease;
+    opacity: 0.4;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
 }
 
 nav a:not(#selected):hover {
-	opacity:	1;
+    opacity: 1;
 }
 
 #mask {
-	position:	relative;
+    position: relative;
 }
 
 #mask>img {
-	display:		none;
-	position:	absolute;
-	top:	0;
-	max-width:	700px;
-	z-index:	50;
+    display: none;
+    position: absolute;
+    top: 0;
+    max-width: 700px;
+    z-index: 50;
 }
-
-
-
-
-
-
-
 
 /*トピックの様式*/
 
 div.topic {
-	margin:	0 0 40px;
-	padding:	110px 0 0px;
+    margin: 0 0 40px;
+    padding: 110px 0 0px;
 }
 
 div#main {
-	padding-bottom:	200px;
+    padding-bottom: 200px;
 }
 
 div.article {
-	box-sizing:	border-box;
-	position:	relative;
-	margin:	18px 0 0;
-	padding:	0 27px 0;
-	
-	text-align:	justify;
-	text-justify: inter-ideograph;
+    box-sizing: border-box;
+    position: relative;
+    margin: 18px 0 0;
+    padding: 0 27px 0;
 
-	font-size:	13.5px;
-	line-height:	175%;
-	letter-spacing:	-0.03em;
-	hanging-punctuation:	allow-end;
+    text-align: justify;
+    text-justify: inter-ideograph;
 
+    font-size: 13.5px;
+    line-height: 175%;
+    letter-spacing: -0.03em;
+    hanging-punctuation: allow-end;
 }
 
 div.article div.subarticle {
-	box-sizing:	border-box;
-	position:	relative;
-	margin:	15px 0 15px;
-	padding:	0 34px 0;
-	
-	line-height:	160%;
-	font-size:	12.5px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 15px 0 15px;
+    padding: 0 34px 0;
+
+    line-height: 160%;
+    font-size: 12.5px;
 }
 
 div.topic div p+p {
-	margin-top:	24px;
+    margin-top: 24px;
 }
 
 div.topic a, div.topic a:link, div.topic a:visited{
-	color:	#B3B3B3;
-	text-decoration:	none;
+    color: #B3B3B3;
+    text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-/*トピック内図表の様式*/
+/* トピック内図表の様式 */
 
 div.article figure {
-	margin:		28px 0 32px;
-	padding:	0;
-	line-height:	0;
+    margin: 28px 0 32px;
+    padding: 0;
+    line-height: 0;
 }
 
 /*箇条書きテーブル*/
 table.list_tbl {
-	margin:	0;
-	padding:	0;
-	border:	0;
-	border-collapse:	collapse;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
 }
 
 table.list_tbl td.leftmost {
-	padding:	0;
+    padding: 0;
 }
 
 table.list_tbl td {
-	padding:	0 0 0 2px;
+    padding: 0 0 0 2px;
 }
 
 /*施設の画像配置テーブル*/
 table.fac_tbl {
-	height:	178px;
-	margin:	0;
-	padding:	0;
-	border:	0;
-	border-collapse:	collapse;
-	line-height:	0;
+    height: 178px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
+    line-height: 0;
 }
 
 table.fac_tbl td.leftmost {
-	padding:	0;
+    padding: 0;
 }
 
 table.fac_tbl td {
-	padding:	0 0 0 2px;
+    padding: 0 0 0 2px;
 }
 
 /*画像（左）＋テキスト（右）配置のテーブル*/
 table.img-txt_tbl {
-	margin:	0;
-	padding:	0;
-	border:	0;
-	border-collapse:	collapse;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-collapse: collapse;
 }
 
 table.img-txt_tbl td.leftmost {
-	padding:	0;
-	vertical-align:	middle;
+    padding: 0;
+    vertical-align: middle;
 }
 
 table.img-txt_tbl td {
-	padding:	0 0 0 22px;
-	vertical-align:	middle;
+    padding: 0 0 0 22px;
+    vertical-align: middle;
 }
 
 /*参照ジャンプ*/
 div.ref {
-	margin:	20px 0 0;
-	font-size:	13px;
-	vertical-align:	middle;
+    margin: 20px 0 0;
+    font-size: 13px;
+    vertical-align: middle;
 }
 
 div.ref img{
-	position:	relative;
-	top:	4px;
-	margin:	0 12px 0 0;
-	float:	left;
+    position: relative;
+    top: 4px;
+    margin: 0 12px 0 0;
+    float: left;
 }
 
+/* 施設紹介の間取り図コンテナ */
 
-
-
-
-
-
-
-
-/*施設紹介の間取り図コンテナ*/
 div#fp {
-	position:relative;
+    position: relative;
 }
 
 div#fp2 {
-	position:absolute;
+    position: absolute;
 }
 
 div#fp div{
-	position:absolute;
-	z-index:	5;
-	opacity:	0;
-	cursor:	pointer;
+    position: absolute;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
 }
 
 div#fp2 div{
-	position:absolute;
-	z-index:	0;
-	opacity:	0;
-	background-color:#C5EB00;
+    position: absolute;
+    z-index: 0;
+    opacity: 0;
+    background-color: #C5EB00;
 }
 
-
-
-
-
-
-
-
-
-/*フッターの様式*/
+/* フッターの様式 */
 
 footer {
-	position:	fixed;
-	-webkit-transform : translateZ(0);
-	transform : translateZ(0);
-	/*top:	411px;*/
-	top:	603px;
-	width:	700px;
-	height:	100%;
-	background-color:	#030303;
+    position: fixed;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    top: 603px;
+    width: 700px;
+    height: 100%;
+    background-color: #030303;
 }
 
 footer section {
-	float:		left;
-	width:	280px;
-	margin:		63px 20px 0 50px;
-	position:	relative;
-	color:	#DEDEDE;
+    float: left;
+    width: 280px;
+    margin: 63px 20px 0 50px;
+    position: relative;
+    color: #DEDEDE;
 }
 
 #fb_wall,#fb_events {
-	margin-top:	18px;
-	font-size:	11.5px;
+    margin-top: 18px;
+    font-size: 11.5px;
 }
 
 footer section table {
-	text-align:	left;
-	 table-layout:	fixed;
+    text-align: left;
+    table-layout: fixed;
 }
 
 footer section table td {
-	padding:	5px 15px 5px 0;
-	white-space:	nowrap;
-	
-	/*	text-overflow: "…"; の対応が出来た時に変更する
-	max-width:	180px;
-	overflow:	hidden;
-	text-overflow:	ellipsis;
-	-o-text-overflow:	ellipsis;
-	text-overflow:	"…";
-	-o-text-overflow:	"...";
-	*/
+    padding: 5px 15px 5px 0;
+    white-space: nowrap;
+
+    /* text-overflow: "…"; の対応が出来た時に変更する
+    max-width: 180px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: "…";
+    -o-text-overflow: "...";
+    */
 }
 
 footer a, footer a:link, footer a:visited{
-	color:	white;
-	text-decoration:	none;
+    color: white;
+    text-decoration: none;
 }
 
-/* HTML Loading ( by Fresco )*/
+/* HTML Loading ( by Fresco ) */
 #loading {
   z-index: 100001;
   position: fixed;
@@ -364,6 +311,7 @@ footer a, footer a:link, footer a:visited{
   margin-left: -26px;
   overflow: visible;
 }
+
 #loading-background {
   position: absolute;
   top: 0;
@@ -371,6 +319,7 @@ footer a, footer a:link, footer a:visited{
   width: 100%;
   height: 100%;
 }
+
 #loading-background {
   background: #0d0d0d url('./fresco/skins/loading.gif') 50% 50% no-repeat;
   opacity: .8;
@@ -383,4 +332,3 @@ footer a, footer a:link, footer a:visited{
   box-sizing: border-box;
   border: 1px solid rgba(80,80,80,.2);
 }
-
